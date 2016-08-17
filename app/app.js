@@ -48,13 +48,13 @@ app.post('/channel1', function(req, res){
 });
 
 app.post('/all', function(req, res){
-        console.log("Emitting on /all");
-    io.emit("/all", {msg: "For all eyes to see!!!"});
+        console.log('Emitting on /all');
+    io.emit('/all', 'For all eyes to see!!!');
     res.send('Sent message to /all')
 });
 
 app.post('/channel2', function(req, res){
-    console.log("Emitting on /channel2");
+    console.log('Emitting on /channel2');
     channel2.emit('/channel2', 'Hi channel2');
     res.send('Sent message to /channel2')
 });

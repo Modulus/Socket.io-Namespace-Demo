@@ -7,7 +7,7 @@
   - Use postman to send messages
 
 ## Code
-Most of the code is in the app/public and app/app.js
+Look in app/public and in the app/app.js file.
 
 ## Post messages to routes
 These post routes in the socket.io app will emit messages to files in the "/public" folder

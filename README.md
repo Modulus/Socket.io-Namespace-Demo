@@ -34,10 +34,10 @@ These post routes in the socket.io app will emit messages to files in the "/publ
 ![index page](/images/choose.png)
 
 #### All
-![all page](/images/all.PNG)
+![all page](/images/all.png)
 
 #### Channel1
-![channel1 page](/images/channel1.PNG)
+![channel1 page](/images/channel1.png)
 
 #### Both channel1 and channel2
-![both channels](/images/both.PNG)
+![both channels](/images/both.png)

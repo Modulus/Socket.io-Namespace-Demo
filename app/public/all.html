@@ -21,7 +21,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.js"></script>
 <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
-<script src="toastr-wrapper.js"></script>
 
 <script>
     console.log('Trying to connect to node app');
@@ -30,7 +29,7 @@
     console.log('Should now be connected!');
 
     socket.on('/all', function(msg){
-        toastrWrapper.show(JSON.stringify(msg));
+        toastr.info(JSON.stringify(msg));
     });
 </script>
 </body>

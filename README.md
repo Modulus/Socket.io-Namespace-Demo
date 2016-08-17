@@ -18,9 +18,9 @@ These post routes in the socket.io app will emit messages to files in the "/publ
     - localhost:3000/both
 
 ## Where can I find postman?
-You can find postman here:
-https://www.getpostman.com/
-It is an application to send messages to a rest API, like this node app
+  - You can find postman here: [Postman](https://www.getpostman.com/)
+  - What is postman?
+    - It is an application to send messages to a rest API, like this node app
 
 ### Example of postman posting  /channel1
 ![Postman image](/images/postman.png)

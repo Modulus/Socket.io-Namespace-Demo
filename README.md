@@ -28,13 +28,13 @@ These post routes in the socket.io app will emit messages to files in the "/publ
 ### Examples of messages received
 
 #### Index page
-![index.html](/images/choose.png)
+![index page](/images/choose.png)
 
 #### All
-![all.html](/images/all.png)
+![all page](/images/all.png)
 
-#### channel1
-![channel1](/images/channel1.png)
+#### Channel1
+![channel1 page](/images/channel1.png)
 
 #### Both channel1 and channel2
 ![both channels](/images/both.png)

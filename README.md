@@ -41,3 +41,8 @@ These post routes in the socket.io app will emit messages to files in the "/publ
 
 #### Both channel1 and channel2
 ![both channels](/images/both.png)
+
+### Oh my DOCKER!!
+  1. docker build -t namespace
+  2. docker run --name namespace -d -p 3000:3000 namespace
+  3. voilà

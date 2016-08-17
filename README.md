@@ -24,3 +24,13 @@ These post routes in the socket.io app will emit messages to files in the "/publ
 
 ### Example of postman posting  /channel1
 ![Postman image](/images/postman.png)
+
+### Example of messages
+  - Index page
+![index.html](/images/choose.png)
+  - All
+![all.html](/images/all.png)
+  - channel1
+![channel1](/images/channel1.png)
+  - both channel1 and channel2
+![both channels](/images/both.png)

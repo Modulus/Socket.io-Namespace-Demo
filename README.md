@@ -16,7 +16,8 @@ These post routes in the socket.io app will emit messages to files in the "/publ
      - localhost:3000/channel2
   - Both channel1 and channel2
     - localhost:3000/both
-## Postman??
+
+## Where can I find postman?
 You can find postman here:
 https://www.getpostman.com/
 It is an application to send messages to a rest API, like this node app

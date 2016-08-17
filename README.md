@@ -6,6 +6,9 @@
   - Open your browser at "http://localhost:3000"
   - Use postman to send messages
 
+## Code
+Most of the code is in the app/public and app/app.js
+
 ## Post messages to routes
 These post routes in the socket.io app will emit messages to files in the "/public" folder
   - all (default socketio namespace)

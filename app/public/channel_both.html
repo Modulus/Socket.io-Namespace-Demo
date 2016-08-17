@@ -32,12 +32,12 @@
 
     console.log('Should now be connected!');
 
-    channel1.on('/channel1', function(msg){
+    channel1.on('/chat1', function(msg){
         console.log('Received message: ', msg);
         toastrWrapper.show(msg);
     });
 
-    channel2.on('/channel2', function(msg){
+    channel2.on('/chat2', function(msg){
         console.log('Received message: ', msg);
         toastrWrapper.show(msg);
     });

@@ -40,7 +40,7 @@ app.get('/channel', function(req, res){
 
 app.post('/channel1', function(req, res){
     console.log('Emitting on /channel1');
-    channel1.emit('/channel1','Hi channel1');
+    channel1.emit('/chat1','Hi channel1');
     res.send('Sent message to /channel1')
 
 });
@@ -53,14 +53,14 @@ app.post('/all', function(req, res){
 
 app.post('/channel2', function(req, res){
     console.log('Emitting on /channel2');
-    channel2.emit('/channel2', 'Hi channel2');
+    channel2.emit('/chat2', 'Hi channel2');
     res.send('Sent message to /channel2')
 });
 
 app.post('/both', function(req, res){
     console.log('Emitting on both /channel1 and /channel2');
-    channel1.emit('/channel1', 'Hi channel1');
-    channel2.emit('/channel2', 'Hi channel2');
+    channel1.emit('/chat1', 'Hi channel1');
+    channel2.emit('/chat2', 'Hi channel2');
     res.send('Sent message to both channels');
 });
 
